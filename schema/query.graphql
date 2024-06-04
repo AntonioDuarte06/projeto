@@ -1,0 +1,12 @@
+# Pontos de entrada da sua API!
+type Query {
+    ola: String!
+    newDate: Date!
+    usuarioLogado: Usuario
+    produtoEmDestaque: Produto
+    numerosMegaSena: [Int]
+    usuarios: [Usuario!]
+    usuario(id: Int): Usuario
+    perfis: [Perfil]
+    perfil(id:Int): Perfil
+}

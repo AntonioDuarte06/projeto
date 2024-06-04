@@ -1,0 +1,13 @@
+To iniciate the development, follow the steps:
+
+Install last version of Node and NPM
+
+### run on the terminal:
+To install dependencies of project:
+  npm -i
+
+to Start the project:
+  npm start
+
+to install GraphQl-import in "coment line"
+  npm i -s graphql-import
